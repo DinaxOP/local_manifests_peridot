@@ -12,22 +12,17 @@
     <remote name="GlixoOp" fetch="https://github.com/GlixoOp" />
 
     <!-- device trees -->
-    <project name="android_device_xiaomi_peridot" path="device/xiaomi/peridot" remote="Dinax" revision="lineage-23.2"/>
+    <project name="android_device_xiaomi_peridot" path="device/xiaomi/peridot" remote="LineageOS" revision="lineage-23.2"/>
 
     <!-- vendor -->
     <project name="proprietary_vendor_xiaomi_peridot" path="vendor/xiaomi/peridot" remote="TheMuppets" revision="lineage-23.2"/>
-    <project name="vendor_bcr" path="vendor/bcr" remote="Chaitanyakm" revision="main"/>
     
     <!-- kernel -->
-    <project name="android_kernel_xiaomi_sm8635" path="kernel/xiaomi/sm8635" remote="GlixoOp" revision="lineage-23.2"/>
+    <project name="android_kernel_xiaomi_sm8635" path="kernel/xiaomi/sm8635" remote="Dinax" revision="lineage-23.2"/>
     <project name="android_kernel_xiaomi_sm8635-modules" path="kernel/xiaomi/sm8635-modules" remote="LineageOS" revision="lineage-23.2"/>
     <project name="android_kernel_xiaomi_sm8635-devicetrees" path="kernel/xiaomi/sm8635-devicetrees" remote="LineageOS" revision="lineage-23.2"/>
 
     <!-- hardware -->
     <project name="android_hardware_xiaomi" path="hardware/xiaomi" remote="LineageOS" revision="lineage-23.2"/>
-    <project name="hardware_dolby" path="hardware/dolby" remote="Poco-F6-resources" revision="16"/>
-
-    <!-- packages -->
-    <project name="packages_apps_GameBar" path="packages/apps/GameBar" remote="kenway214" revision="lineage-23.2"/>
 
 </manifest>
